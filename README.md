@@ -1,6 +1,6 @@
 ﻿# DL-BinaryClassification-Tuberculosis-Prediction
 
-<img src="[https://github.com/Pisit-Janthawee/DL-BinaryClassification-Tuberculosis-Prediction/blob/main/images/app_deploy_tmp.png]" align="center">
+<img src="https://github.com/Pisit-Janthawee/DL-BinaryClassification-Tuberculosis-Prediction/blob/main/images/app_deploy_tmp.png" align="center">
 
 # Tuberculosis
 
