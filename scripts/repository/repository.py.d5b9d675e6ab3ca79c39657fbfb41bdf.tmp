@@ -1,0 +1,56 @@
+import os
+import numpy as np
+import pandas as pd
+import pyarrow.parquet as pq
+
+class Repository:
+    def __init__(self, base_path='repositorys/metadata'):
+        self.base_path = base_path
+        self.metadata_path = self.base_path
+        os.makedirs(self.metadata_path, exist_ok=True)
+
+    def store(self, name, dataset, folder, save_format):
+        file_name = name.replace(r'( |s)', '_')
+
+        # Reference: add the 'X_' prefix if it is
+        if folder == 'reference':
+            folder_path = os.path.join(self.metadata_path, folder, file_name)
+            file_name = f'X_{file_name}'
+
+        else:
+            folder_path = os.path.join(self.metadata_path, folder)
+
+        os.makedirs(folder_path, exist_ok=True)
+
+        if save_format == 'npy':
+            np.save(os.path.join(folder_path, f'{file_name}.npy'), dataset)
+        elif save_format == 'excel':
+            df = pd.DataFrame(dataset)
+            df.to_excel(os.path.join(
+                folder_path, f'{file_name}.xlsx'), index=False)
+        elif save_format == 'csv':
+            df = pd.DataFrame(dataset)
+            df.to_csv(os.path.join(folder_path, f'{file_name}.csv'), index=False)
+        elif save_format == 'parquet':
+            table = pq.write_table(pq.Table.from_pandas(dataset))
+            table.write(os.path.join(folder_path, f'{file_name}.parquet'))
+
+        print(f'Saved [{name}] dataset to [{folder_path}]')
+
+    def load_data(self, name, folder, load_format):
+        folder_path = os.path.join(self.metadata_path, folder)
+        file_path = os.path.join(folder_path, name, f'{name}.{load_format}')  # Include subfolder name
+
+        if os.path.exists(file_path):
+            if load_format == 'npy':
+                return np.load(file_path)
+            elif load_format == 'excel':
+                return pd.read_excel(file_path)
+            elif load_format == 'csv':
+                return pd.read_csv(file_path)
+            elif load_format == 'parquet':
+                table = pq.read_table(file_path)
+                return table.to_pandas()
+        else:
+            print(f"Error: File {file_path} not found.")
+            return None
