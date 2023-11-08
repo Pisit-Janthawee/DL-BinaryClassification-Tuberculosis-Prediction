@@ -137,11 +137,11 @@ For Tuberculosis Detection using Chest X-ray images with a binary classification
    - 2.7 Adam Gradient Descent Optimization
 3. Experimentation
 
-   - 3.8.1 Importing Utility
-   - 3.8.2 Loading the Dataset
-   - 3.8.3 Splitting the Dataset
-   - 3.8.4 Generating Real-world/Unseen Data
-   - 3.8.5 Experimentation
+   - 3.1 Importing Utility
+   - 3.2 Loading the Dataset
+   - 3.3 Splitting the Dataset
+   - 3.4 Generating Real-world/Unseen Data
+   - 3.5 Experimentation
      - Experiment 1: Building the First CNN Model
      - Experiment 2: Comparing Optimizers
      - Experiment 3: Comparing Pooling Techniques
@@ -154,7 +154,7 @@ For Tuberculosis Detection using Chest X-ray images with a binary classification
      - Experiment 6: Image Enhancement Techniques
      - Experiment 7: Impact of Varying Unit Sizes in Neural Network Layers
      - Experiment 8: Exploring Different Image Input Sizes
-   - 3.8.6 Summary of Overall Experiment
+   - 3.6 Summary of Overall Experiment
 
 4. Explainability
    - 4.1 Why Explainability Matters
