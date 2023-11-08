@@ -112,6 +112,7 @@ For Tuberculosis Detection using Chest X-ray images with a binary classification
      - 1.5.3 Adaptive Histogram Equalization
    - 1.6 Normalization
      - 1.6.1 Min-Max Normalization
+     - 1.6.2 Standardization for PCA
    - 1.7 Principal Component Analysis (PCA)
      - 1.7.1 Finding Optimum Number of Principal Components
      - 1.7.2 Image Reconstruction
@@ -160,6 +161,8 @@ For Tuberculosis Detection using Chest X-ray images with a binary classification
    - 4.1 Why Explainability Matters
    - 4.2 Explainer
      - 4.2.1 Lime Library
+       - Image Segmentation
+       - Model Explainability   
      - 4.2.2 Shap Explainability Library / No more Explainer
 
 # File Description
