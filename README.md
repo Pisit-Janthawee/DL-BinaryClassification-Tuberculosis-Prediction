@@ -1,6 +1,7 @@
 ﻿# DL-BinaryClassification-Tuberculosis-Prediction
 
 <img src="https://github.com/Pisit-Janthawee/DL-BinaryClassification-Tuberculosis-Prediction/blob/main/images/gradio.png" align="center">
+
 **Overview & Objective**:
 
 **Overview**: This project focuses on applying Deep Learning techniques for the binary classification task of Tuberculosis (TB) prediction. The dataset consists of chest X-ray images, and the goal is to develop a deep learning model that can accurately classify whether an individual has TB or not based on these images.
