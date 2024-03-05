@@ -14,6 +14,7 @@
 
 Enable accurate and automated detection of Tuberculosis from chest X-ray images.
 Facilitate early diagnosis and intervention for Tuberculosis cases, contributing to improved patient outcomes.
+
 **Learning Problems**: Deep Learning for Binary Classification
 
 **Reason for Choosing this Project**: Addressing a crucial healthcare challenge by leveraging advanced Deep Learning techniques for Tuberculosis prediction.
@@ -61,7 +62,7 @@ Tuberculosis is treated with a combination of antibiotics to ensure the effectiv
 
 From ICD-10 (International Classification of Diseases 10th Revision)
 
-| Diagcode | DiagENGname                        | DiagTHname          | Description                                                                                                                                                                                                                             |
+| Diagcode | DiagEngName                        | DiagThName          | Description                                                                                                                                                                                                                             |
 | -------- | ---------------------------------- | ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | A15      | Respiratory tuberculosis           | วัณโรคทางเดินหายใจ  | Tuberculosis primarily affecting the respiratory system, particularly the lungs. It is the most common form of tuberculosis.                                                                                                            |
 | A16      | Tuberculosis of other organs       | วัณโรคของอวัยวะอื่น | Tuberculosis affecting organs other than the respiratory system, such as the kidneys, spine, brain, and lymph nodes. This category includes extrapulmonary tuberculosis.                                                                |
