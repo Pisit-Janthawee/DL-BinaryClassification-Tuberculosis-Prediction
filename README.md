@@ -13,9 +13,7 @@ Binary classification | Convolutional Neural Network (CNN)| TensorFlow | Medical
   - **Business Type**: Healthcare and Medical
 
   - **Business Objective**:
-
-Enable accurate and automated detection of Tuberculosis from chest X-ray images.
-Facilitate early diagnosis and intervention for Tuberculosis cases, contributing to improved patient outcomes.
+    Enable accurate and automated detection of Tuberculosis from chest X-ray images. Facilitate early diagnosis and intervention for Tuberculosis cases, contributing to improved patient outcomes.
 
   - **Learning Problems**: Deep Learning for Binary Classification
 
