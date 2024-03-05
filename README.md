@@ -2,34 +2,36 @@
 
 <img src="https://github.com/Pisit-Janthawee/DL-BinaryClassification-Tuberculosis-Prediction/blob/main/images/gradio.png" align="center">
 
-**Overview & Objective**:
+Binary classification | Convolutional Neural Network (CNN)| TensorFlow | Medical X-Ray Imaging | Image Processing | Image Segmentation | Data Augmentation | MLOps | Machine learning Engineer | Model interpretability | Model Explainability | Class imbalance | 
 
-**Overview**: This project focuses on applying Deep Learning techniques for the binary classification task of Tuberculosis (TB) prediction. The dataset consists of chest X-ray images, and the goal is to develop a deep learning model that can accurately classify whether an individual has TB or not based on these images.
+- **Overview & Objective**:
 
-**Objective**: To create a robust Deep Learning model for Tuberculosis prediction using chest X-ray images.
+  - **Overview**: This project focuses on Developed a Tuberculosis Prediction model using Chest X-ray Images (Binary classification) Implemented MLOps scripts for operational efficiency, transformed images to Numpy, applied data augmentation, and addressed class imbalance. Conducted statistical analysis, preprocessed data for a TensorFlow-based Convolutional Neural Network (CNN), and ensured model interpretability using LIME. Deployed the model as a web application via Gradio for accessible Tuberculosis predictions.
 
-**Business Type**: Healthcare and Medical
+  - **Objective**: To create a robust Deep Learning model for Tuberculosis prediction using chest X-ray images.
 
-**Business Objective**:
+  - **Business Type**: Healthcare and Medical
+
+  - **Business Objective**:
 
 Enable accurate and automated detection of Tuberculosis from chest X-ray images.
 Facilitate early diagnosis and intervention for Tuberculosis cases, contributing to improved patient outcomes.
 
-**Learning Problems**: Deep Learning for Binary Classification
+  - **Learning Problems**: Deep Learning for Binary Classification
 
-**Reason for Choosing this Project**: Addressing a crucial healthcare challenge by leveraging advanced Deep Learning techniques for Tuberculosis prediction.
+  - **Reason for Choosing this Project**: Addressing a crucial healthcare challenge by leveraging advanced Deep Learning techniques for Tuberculosis prediction.
 
-**Expected Result**: A Deep Learning model achieving high accuracy in classifying chest X-ray images for Tuberculosis detection.
+  - **Expected Result**: Probability of disease
 
-**Utilization of Results**: Integration of the Deep Learning model into healthcare systems for automated Tuberculosis screening from chest X-ray images.
+  - **Utilization of Results**: Serve model prediction as API and Integration of the Deep Learning model into healthcare systems for automated Tuberculosis screening from chest X-ray images.
 
-**Benefits of this Project**:
+  - **Benefits of this Project**:
 
-- Automated and efficient Tuberculosis detection from chest X-ray images.
-- Early diagnosis leads to timely medical interventions and improved patient outcomes.
-- Utilization of cutting-edge Deep Learning technology in healthcare for predictive analytics.
-Contribution to medical research by exploring the potential of Deep Learning in Tuberculosis diagnosis.
-- Enhanced capabilities for healthcare professionals in screening and managing Tuberculosis cases.
+    - Automated and efficient Tuberculosis detection from chest X-ray images.
+    - Early diagnosis leads to timely medical interventions and improved patient outcomes.
+    - Utilization of cutting-edge Deep Learning technology in healthcare for predictive analytics.
+    Contribution to medical research by exploring the potential of Deep Learning in Tuberculosis diagnosis.
+    - Enhanced capabilities for healthcare professionals in screening and managing Tuberculosis cases.
   
 # Tuberculosis
 
