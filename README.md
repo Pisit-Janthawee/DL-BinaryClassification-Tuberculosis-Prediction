@@ -2,13 +2,13 @@
 
 <img src="https://github.com/Pisit-Janthawee/DL-BinaryClassification-Tuberculosis-Prediction/blob/main/images/gradio.png" align="center">
 
-Binary classification | Convolutional Neural Network (CNN)| TensorFlow | Medical X-Ray Imaging | Image Processing | Image Segmentation | Data Augmentation | MLOps | Machine learning Engineer | Model interpretability | Model Explainability | Class imbalance | 
+Binary classification | Convolutional Neural Network (CNN) | TensorFlow | Medical X-Ray Imaging | Image Processing | Image Segmentation | Data Augmentation | MLOps | Machine learning Engineer | Model interpretability | Model Explainability | Class imbalance | 
 
 - **Overview & Objective**:
 
   - **Overview**: This project focuses on Developed a Tuberculosis Prediction model using Chest X-ray Images (Binary classification) Implemented MLOps scripts for operational efficiency, transformed images to Numpy, applied data augmentation, and addressed class imbalance. Conducted statistical analysis, preprocessed data for a TensorFlow-based Convolutional Neural Network (CNN), and ensured model interpretability using LIME. Deployed the model as a web application via Gradio for accessible Tuberculosis predictions.
 
-  - **Objective**: To create a robust Deep Learning model for Tuberculosis prediction using chest X-ray images.
+  - **Objective**: To create a Convolutional Neural Network (CNN) model for Tuberculosis prediction to detect the chest X-ray image input.
 
   - **Business Type**: Healthcare and Medical
 
@@ -24,7 +24,7 @@ Binary classification | Convolutional Neural Network (CNN)| TensorFlow | Medical
   - **Utilization of Results**: Serve model prediction as API and Integration of the Deep Learning model into healthcare systems for automated Tuberculosis screening from chest X-ray images.
 
   - **Benefits of this Project**:
-
+    - Improved my first deep learning study by applying the concepts from the Machine Learning Specialization by Andrew Ng, while simultaneously leveraging my object-oriented programming (OOP) skills to enhance MLOps practices for the project.
     - Automated and efficient Tuberculosis detection from chest X-ray images.
     - Early diagnosis leads to timely medical interventions and improved patient outcomes.
     - Utilization of cutting-edge Deep Learning technology in healthcare for predictive analytics.
