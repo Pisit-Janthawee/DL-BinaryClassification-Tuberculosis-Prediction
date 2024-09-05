@@ -1,7 +1,5 @@
 ﻿# DL-BinaryClassification-Tuberculosis-Prediction
-
-## Updated Version on Kaggle
-- https://www.kaggle.com/code/pisitjanthawee13/tuberculosis-classification-cnns-with-lime
+- Updated Version on Kaggle: https://www.kaggle.com/code/pisitjanthawee13/tuberculosis-classification-cnns-with-lime
 
 <img src="https://github.com/Pisit-Janthawee/DL-BinaryClassification-Tuberculosis-Prediction/blob/main/images/gradio.png" align="center">
 
