@@ -1,5 +1,8 @@
 ﻿# DL-BinaryClassification-Tuberculosis-Prediction
 
+## Updated Version on Kaggle
+- https://www.kaggle.com/code/pisitjanthawee13/tuberculosis-classification-cnns-with-lime
+
 <img src="https://github.com/Pisit-Janthawee/DL-BinaryClassification-Tuberculosis-Prediction/blob/main/images/gradio.png" align="center">
 
 Binary classification | Convolutional Neural Network (CNN) | TensorFlow | Medical X-Ray Imaging | Image Classification | LIME | Local Interpretable Model-Agnostic Explanations (LIME) | Image Processing | Image Segmentation | Data Augmentation | MLOps | Machine learning Engineer | Model interpretability | Model Explainability | Class imbalance | 
